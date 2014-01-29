@@ -30,7 +30,7 @@ function troco($reais)
 
 
 
-    return array(
+    return [
         '100.00' => $cem,
         '50.00' => $cinquenta,
         '20.00' => $vinte,
@@ -38,7 +38,7 @@ function troco($reais)
         '5.00' => $cinco,
         '2.00' => $dois,
         '1.00' => $um
-    );
+    ];
 }
 
 function quantidade_notas($troco, $valornota)
